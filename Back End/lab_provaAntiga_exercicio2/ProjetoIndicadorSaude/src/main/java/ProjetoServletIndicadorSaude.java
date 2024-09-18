@@ -24,6 +24,7 @@ public class ProjetoServletIndicadorSaude extends HttpServlet {
 		super.init(config);
 		System.out.println("Hello init()");
 		
+		//Redefinir o parametro no XML para uma "string", onde o tratamento sera feito no init();
 		try {
 			indiceK = Double.parseDouble(config.getInitParameter("indiceModernoK"));
 			indiceE = Double.parseDouble(config.getInitParameter("indiceModernoE"));
