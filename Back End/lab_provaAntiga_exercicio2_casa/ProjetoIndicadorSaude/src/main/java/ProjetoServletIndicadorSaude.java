@@ -9,13 +9,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ProjetoServletIndicadorSaude extends HttpServlet {
+public class labServlets_provaAntiga_exercicio2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	private static final double INDICE_TRADICIONAL_K = 1, INDICE_TRADICIONAL_E = 2;
 	private double indiceK, indiceE;       
 
-    public ProjetoServletIndicadorSaude() {
+    public labServlets_provaAntiga_exercicio2() {
         super();
     }
 
@@ -177,7 +177,7 @@ public class ProjetoServletIndicadorSaude extends HttpServlet {
 	    out.println("<body>");
 	    out.println("<h1>Calculo de IMC</h1>");
 	    
-	    out.println("<form action=\"servCalculoIMC\" method=\"post\">");
+	    out.println("<form action=\"labServProvaAntigaEx2\" method=\"post\">");
 	    out.println("<label for=\"Altura\">Altura: </label>");
 	    out.println("<input type=\"text\" name=\"Altura\"> em metros (ex: 1.70) </input>");
 	    out.println("<p></p>");
