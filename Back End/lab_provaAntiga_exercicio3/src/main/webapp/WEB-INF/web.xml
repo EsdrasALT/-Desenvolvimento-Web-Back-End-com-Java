@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>lab_provaAntiga_exercicio3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>labServlt_provaAntiga_exercicio3</display-name>
+    <servlet-name>labServlt_provaAntiga_exercicio3</servlet-name>
+    <servlet-class>labServlt_provaAntiga_exercicio3</servlet-class>
+    
+    <init-param>
+	 <description/>
+	 <param-name>precoGasolina</param-name>
+	 <param-value>5</param-value>
+	</init-param>
+	
+	<init-param>
+	 <description/>
+	 <param-name>precoAlcool</param-name>
+	 <param-value>10</param-value>
+	</init-param>
+	
+	<init-param>
+	 <description/>
+	 <param-name>precoDiesel</param-name>
+	 <param-value>20</param-value>
+	</init-param>    
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>labServlt_provaAntiga_exercicio3</servlet-name>
+    <url-pattern>/labServEx3</url-pattern>
+  </servlet-mapping>
+</web-app>
