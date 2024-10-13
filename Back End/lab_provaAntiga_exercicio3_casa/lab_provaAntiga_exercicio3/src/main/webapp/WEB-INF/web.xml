@@ -11,31 +11,31 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>labServlt_provaAntiga_exercicio3</display-name>
-    <servlet-name>labServlt_provaAntiga_exercicio3</servlet-name>
-    <servlet-class>labServlt_provaAntiga_exercicio3</servlet-class>
-    
-    <init-param>
+    <display-name>labServlet_provaAntiga_exercicio3</display-name>
+    <servlet-name>labServlet_provaAntiga_exercicio3</servlet-name>
+    <servlet-class>labServlet_provaAntiga_exercicio3</servlet-class>
+
+	<init-param>
 	 <description/>
 	 <param-name>precoGasolina</param-name>
-	 <param-value>5</param-value>
-	</init-param>
+	 <param-value>1</param-value>
+	</init-param>  
 	
 	<init-param>
 	 <description/>
 	 <param-name>precoAlcool</param-name>
-	 <param-value>10</param-value>
-	</init-param>
+	 <param-value>1</param-value>
+	</init-param> 
 	
 	<init-param>
 	 <description/>
 	 <param-name>precoDiesel</param-name>
-	 <param-value>20</param-value>
-	</init-param>    
-    
+	 <param-value>1</param-value>
+	</init-param> 
+ 
   </servlet>
   <servlet-mapping>
-    <servlet-name>labServlt_provaAntiga_exercicio3</servlet-name>
+    <servlet-name>labServlet_provaAntiga_exercicio3</servlet-name>
     <url-pattern>/labServEx3</url-pattern>
   </servlet-mapping>
 </web-app>
