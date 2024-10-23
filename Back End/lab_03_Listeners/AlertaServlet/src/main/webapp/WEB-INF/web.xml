@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>AlertaServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletAlerta</display-name>
+    <servlet-name>ServletAlerta</servlet-name>
+    <servlet-class>ServletAlerta</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletAlerta</servlet-name>
+    <url-pattern>/ServletAlerta</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InvalidarSessaoServlet</display-name>
+    <servlet-name>InvalidarSessaoServlet</servlet-name>
+    <servlet-class>InvalidarSessaoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InvalidarSessaoServlet</servlet-name>
+    <url-pattern>/InvalidarSessaoServlet</url-pattern>
+  </servlet-mapping>
+  <listener>
+    <listener-class>SessionListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>teste</listener-class>
+  </listener>
+  <listener>
+    <listener-class>teste</listener-class>
+  </listener>
+  <listener>
+    <listener-class>testeListenerContext</listener-class>
+  </listener>
+  <listener>
+    <listener-class>testeListernerSession</listener-class>
+  </listener>
+</web-app>
