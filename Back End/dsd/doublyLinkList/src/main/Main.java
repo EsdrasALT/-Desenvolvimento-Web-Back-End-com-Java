@@ -22,9 +22,8 @@ public class Main {
         buscaInicio.setOutraThread(buscaFim);
         buscaFim.setOutraThread(buscaInicio);
 
-        buscaFim.start();
         buscaInicio.start();
-
+        buscaFim.start();
 
         try {
             buscaInicio.join();
